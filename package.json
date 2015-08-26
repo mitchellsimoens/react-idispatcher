@@ -1,0 +1,36 @@
+{
+    "name": "react-idispatcher",
+    "description": "Improved dispatcher for React and other applications (written in ES6)",
+    "version": "0.0.1",
+    "author": {
+        "name": "Mitchell Simoens",
+        "email": "mitchellsimoens@gmail.com",
+        "url": "https://github.com/mitchellsimoens/"
+    },
+    "readme": "ERROR: No README data found!",
+    "homepage": "https://github.com/mitchellsimoens/react-idispatcher/",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mitchellsimoens/react-idispatcher.git"
+    },
+    "keywords": [
+        "react",
+        "dispatcher",
+        "event",
+        "es6"
+    ],
+    "bugs": {
+        "url": "https://github.com/mitchellsimoens/react-idispatcher/issues"
+    },
+    "main": "index.jsx",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "devDependencies": {
+        "babelify": "^6.1.1"
+    },
+    "browserify": {
+        "transform": [ "babelify" ]
+    }
+}
